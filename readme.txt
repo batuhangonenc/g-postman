@@ -14,7 +14,7 @@ if it doesn't work or an error happened,try
 to check out the repositories of your linux distro.
 ---------------------------------------------------
 errors happened and if you think like there isn't
-solution,just delete lines 24,62,63 and 64
+solution,just delete lines 24,64,65 and 66
 from postman.py then enjoy the program.
 ---------------------------------------
 you can find the music by the link below:
