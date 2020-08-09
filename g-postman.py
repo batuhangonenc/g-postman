@@ -85,8 +85,8 @@ while True:
         senderpassword=input("*****\npassword:")
         subject = input("subject:")
 
-        receiver = input("*****\nreceiver e-mail(gmail):")
-        receiver += "@gmail.com"
+        receiver = input("*****\nreceiver e-mail(protonmail):")
+        receiver += "@protonmail.com"
 
         switcher1 = input("*****\nWhich one do you prefer?\nto leave a little message by hand(m)\nenter the path that shows the document.(p)")
 
