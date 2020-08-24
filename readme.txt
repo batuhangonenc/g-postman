@@ -22,5 +22,5 @@ https://freesound.org/people/ShortRecord/sounds/528449/
 thanks about music for ShortRecord from freesound.com .
 -------------------------------------------------------
 author: Batuhan Gonenc
-contact: gonencbthn@gmail.com
------------------------------
+contact: bthngnncscnd@gmail.com
+--------------------------------
