@@ -1,5 +1,10 @@
 ------------------------------------------
-G-Postman is distributed with MIT License.
+G-Postman is a e-mail sender for gmails that 
+uses command line interface to make it possible
+to send emails from computers that have low physical
+facilities.
+
+Distributed with MIT License.
 ------------------------------------------
 recommended for linux users
 ---------------------------
