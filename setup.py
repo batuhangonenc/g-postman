@@ -45,4 +45,4 @@ file.close()
 
 print("Postman installed successfully.\njust write gpostman in terminal to use.")
 li = input('press enter to exit')
-os.remove(setup.py)
+os.remove("setup.py")
