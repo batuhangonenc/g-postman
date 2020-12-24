@@ -1,5 +1,5 @@
 ------------------------------------------
-G-Postman is a e-mail sender for gmails that 
+Postman is a e-mail sender that 
 uses command line interface to make it possible
 to send emails from computers that have low physical
 facilities.
