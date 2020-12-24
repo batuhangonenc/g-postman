@@ -24,9 +24,8 @@ SOFTWARE.
 """
 
 import os,sys
-print("G-Postman Setup\n-------------")
-un = input('enter your username in session:')
-
+print("Postman Setup\n-------------")
+un = os.getlogin()
 try:
     file = open("/home/{}/.bashrc".format(un),'r')
     content = file.read()
@@ -44,6 +43,6 @@ file = open("/home/{}/.bashrc".format(un),'w')
 file.write(newcontent)
 file.close()
 
-print("G-Postman installed successfully.\njust write gpostman in terminal to use.")
+print("Postman installed successfully.\njust write gpostman in terminal to use.")
 li = input('press enter to exit')
 os.remove(setup.py)
