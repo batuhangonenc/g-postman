@@ -72,7 +72,7 @@ while True:
     elif s1 =='o':
         print("----------\n1- send an e-mail\nfor exit 'q'.\n----------")
         
-    elif s1 == "0":
+    elif s1 == "1":
         
         sendermail=""
         receivermail=""
@@ -170,3 +170,6 @@ while True:
             
             
     
+    else:
+        print("\n#unvalid input#")
+        continue
