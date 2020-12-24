@@ -77,7 +77,7 @@ while True:
         sendermail=""
         receivermail=""
         
-        pattern = r"^(\w)+\@(\w)+\.(\w){2,6}$"
+        pattern = r"^([\w\.-]+)@([\w\.-]+)\.([\w\.]+)$"
         
         ct = 3
         while 1:
