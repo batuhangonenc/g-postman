@@ -42,12 +42,6 @@ Postman
 Postman's calendar --> {}
 Postman's clock --> {} : {}
 --------------
-Postman warns:
--only if it is a special mail add anything like this "@example.com".
--in other situations,i only need the address until "@"(except @).
-~
-Enjoy.
-
 #Options
 ---------
 1- send an e-mail
