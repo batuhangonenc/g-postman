@@ -36,7 +36,7 @@ except:
     sys.exit()
 
 here = os.getcwd()
-new = '\nalias gpostman="cd {} && python3 postman.py"'.format(here)
+new = '\nalias postman="cd {} && python3 postman.py"'.format(here)
 newcontent = content + new
 
 file = open("/home/{}/.bashrc".format(un),'w')
