@@ -28,6 +28,7 @@ from email.mime.multipart import MIMEMultipart
 import sys,re
 from datetime import datetime
 from pygame import mixer as mx
+from getpass import getpass as gp
 
 #defining-UI-variables
 now = datetime.now()
@@ -110,7 +111,7 @@ while True:
             
             
             
-        senderpassword=input("*****\npassword:")
+        senderpassword = gp("*****\npassword:")
         
         subject = input("subject:")
   
