@@ -43,6 +43,13 @@ file = open("/home/{}/.bashrc".format(un),'w')
 file.write(newcontent)
 file.close()
 
+
+try:
+    os.system("sudo apt install python3-pygame")
+    
+except:
+    os.system("pip3 install pygame")
+    
 print("Postman installed successfully.\njust write gpostman in terminal to use.")
 li = input('press enter to exit')
 os.remove("setup.py")
