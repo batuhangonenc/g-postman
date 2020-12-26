@@ -25,15 +25,21 @@ SOFTWARE.
 
 import os,sys
 print("Postman Setup\n-------------")
-un = os.getlogin()
-try:
-    file = open("/home/{}/.bashrc".format(un),'r')
-    content = file.read()
-    file.close()
-except:
-    print("something went wrong.")
-    print("try execute again.")
-    sys.exit()
+
+
+
+while 1:
+    un = input("username:")
+    try:
+        file = open("/home/{}/.bashrc".format(un),'r')
+        content = file.read()
+        file.close()
+        break
+
+    except:
+        print("something went wrong.")
+        print("try execute again.")
+        sys.exit()
 
 here = os.getcwd()
 new = '\nalias postman="cd {} && python3 postman.py"'.format(here)
